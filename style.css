@@ -1,0 +1,281 @@
+
+/* main content */
+body{ 
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif; /* Set content text to arial...*/
+    display:flex;    /*expands items to fill available free space*/
+    flex-direction: column; /*sets how flex items are placed in the flex container*/
+}
+
+
+/* nav bar style */
+nav { 
+	height: 70px;
+    width: 100%;
+	background-color:rgb(243 142 88);
+	padding-top: 20px;
+    position: fixed; /* set content position relative to the viewport*/
+    top: 0; /*set the element in position absolute */
+
+}
+
+/* the logo inside the nav bar*/
+nav img{
+	width: 100px;
+	margin-left: 80px;
+
+}
+
+ul {
+	list-style: none; /* set all lists in the container */
+}
+
+
+/* list items inside the nav*/
+nav li{
+	display: inline; /* set items in same line */
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+
+/* the link inside the nav bar */
+nav a{
+	text-decoration: none; /* any existing decoration is removed  */
+	color: white;
+}
+
+
+.image{
+	float: left; /* the logo float to the left */
+}
+
+.list{
+	float: left; /* nav menu float to the left */
+}
+
+.nav_buttons {
+	     float: left; /* nav buttons float to the left*/
+}
+
+#btn_1 { /* first nav button */
+	    background-color: black;
+        color: white;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border-style: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-family: sans-serif;
+        text-transform: uppercase; /*set buttons text to uppercase*/
+}
+
+#btn_2 { /* second nav button*/
+	     background-color:rgb(243 142 88);
+        color: white;
+        padding: 8px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+}
+
+
+
+#btn_1:hover{ /* select elements that users hover their cursor or mouse over*/
+    background-color:rgba(0, 255, 221, 0.438); 
+}
+
+#btn_2:hover {
+    background-color:rgba(0, 255, 221, 0.438);
+}
+
+/* header area*/
+header { 
+      background-color: rgb(243 142 88);
+      height: 200px;
+      text-align: center;
+      padding-top: 200px;
+}
+
+/* the span tag inside header*/
+header span {  
+             font-size: 70px;
+             color: blanchedalmond;
+             text-transform: uppercase;
+}
+
+
+/* the paragraph tag inside header */
+header p {
+          font-size: 20px;
+}
+
+
+/* the main area*/
+main { 
+   
+    padding-top: 70px;
+    display: flex;    
+}
+
+
+/* the "reach out to us" div */
+.left_div {
+       width: 50%;
+}
+
+/* the "lander team" div */
+.right_div {
+    width: 50%;
+}
+
+
+/* the spans tags inside main tag */
+main span { 
+            font-weight: bold;
+           margin-left: 80px;
+           font-size: 25px;
+           color: rgb(0, 102, 255);
+           text-transform: uppercase;
+           
+}
+
+
+/*the paragraph tag inside main tag */
+main p {
+    margin-left: 80px;
+    
+}
+
+
+
+/* the link inside the main tag */
+main a {
+    text-decoration: none;
+    color:chocolate;
+}
+
+
+/* the contacting form*/ 
+form { margin-top: 40px;
+     
+}
+
+
+/* the input and the textarea tags inside the form tag */
+form input, textarea {
+        width: 80%;
+        height: 30px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+        border-style: solid;
+        border-color: rgba(0, 0,0, 0,4);
+        border-width: thin;
+}
+
+textarea{
+        height: 90px;
+        
+}
+
+/* the heading tag inside the main tag*/
+main h3 {  
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+/* the font awesomes links */
+main i{
+    color: chocolate;
+    font-size:40px ;
+    float: left;
+    margin-right: 20px;
+}
+
+#twit    {
+    
+    color:chocolate;
+    float: left;
+}
+
+
+#link {
+        color: chocolate;
+        float: left;
+
+}
+
+
+/* the submit button under the form*/
+.submit {
+        width: 70px;
+        margin-left: 520px;
+        background-color: rgb(243 142 88);
+        border-style: none;
+        border-radius: 8px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+/* controling footer*/
+    footer { background-color: rgb(64 64 64);
+        color:  rgb(139 139 139);
+        display: flex;
+        justify-content: space-around; /* set how the browser distributes space between and around content items*/
+    }
+
+
+/* the list and list items inside the footer */
+    footer ul , li { 
+    margin-top: 10px;
+}
+
+/* the title of every list in the footer */
+.title {
+    color: white;
+}
+    
+
+/* the fontawesomes inside the footer*/
+footer i {
+    color:rgb(243 142 88);
+}
+
+/* creating a page button */
+.create_btn {
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(3 32 48);
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.create_btn:hover { background-color:rgba(0, 255, 221, 0.438); }
+
+
+/* the copyright area under footer */
+.last_div{
+    background-color: rgb(51 51 51);
+    color: rgb(139 139 139);
+}
+.last_div p{
+    margin-left: 50px;
+}
+
+
+/* the terms and privacy link*/
+.term_prv {
+    text-decoration: none;
+    color: rgb(243 142 88);
+}
+
